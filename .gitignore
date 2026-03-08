@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (too large for git)
+*.zip
+*.pth
+*.pt
+*.parquet
+*.mp4
+*.png
+*.jpg
+
+# Student outputs
+scaleworm_students/
+scaleworm_starter/
+
+# OS
+.DS_Store

@@ -1,0 +1,16 @@
+[project]
+name = "scaleworm-student-lab"
+version = "0.1.0"
+description = "Human-in-the-loop scale worm detection lab — Axial Seamount CAMHD"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "pyarrow>=15.0",
+    "torch>=2.1",
+    "torchvision>=0.16",
+    "pillow>=10.0",
+    "ipykernel>=6.25",
+]
