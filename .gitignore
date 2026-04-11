@@ -22,3 +22,11 @@ scaleworm_starter/
 
 # OS
 .DS_Store
+
+# Literature — never commit external publisher PDFs (see literature/README.md)
+# This ONLY blocks files under literature/. Generated artifacts under
+# outputs/ are deliberately allowed: they are reproducible from version-
+# controlled scripts and are not subject to publisher licensing.
+literature/**/*.pdf
+literature/**/*.epub
+literature/**/*.djvu
