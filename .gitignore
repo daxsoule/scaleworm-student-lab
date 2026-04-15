@@ -30,3 +30,6 @@ scaleworm_starter/
 literature/**/*.pdf
 literature/**/*.epub
 literature/**/*.djvu
+
+# Working/verification session data — 16 GB of crops, frames, zips, JSONs
+notebooks/verification_session/
